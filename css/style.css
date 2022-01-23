@@ -6,8 +6,8 @@
 03) HERO
 04) ABOUT
 05) SERVICES
-06) PORTFOLIO
-07) SECTION
+06) SECTION
+07) PORTFOLIO
 08) 
 09) SOCIAL
 @MEDIA AFTER 
@@ -372,12 +372,48 @@ html {
 
 
 
+/*---------------------------------------------------*/
+/*	06) SECTION
+/*---------------------------------------------------*/
+.section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5rem 0;
+    background-image: url(/img/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
+.sectionPart {
+    width: 40%;
+    height: auto;
+}
+
+.sectionPart div {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 7px;
+    color: #fff;
+}
+
+.sectionPart span {
+    font-family: "Poppins";
+    color: #fff;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .section {
+        padding: 1rem 0;
+    }
+}
 
 
 
 /*---------------------------------------------------*/
-/*	06) PORTFOLIO
+/*	07) PORTFOLIO
 /*---------------------------------------------------*/
 
 .portfolio {
@@ -414,43 +450,7 @@ html {
     }
 }
 
-/*---------------------------------------------------*/
-/*	07) SECTION
-/*---------------------------------------------------*/
-.section {
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    padding: 5rem 0;
-    background-image: url(/img/back.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-}
 
-.sectionPart {
-    width: 40%;
-    height: auto;
-}
-
-.sectionPart div {
-    font-size: 40px;
-    font-weight: 800;
-    margin-bottom: 7px;
-    color: #fff;
-}
-
-.sectionPart span {
-    font-family: "Poppins";
-    color: #fff;
-    font-size: 20px;
-}
-
-
-@media screen and (max-width: 600px) {
-    .section {
-        padding: 1rem 0;
-    }
-}
 
 
 
