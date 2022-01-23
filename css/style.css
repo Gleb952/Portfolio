@@ -330,11 +330,44 @@ html {
 /*---------------------------------------------------*/
 /*	05) SERVICES
 /*---------------------------------------------------*/
-
 .services {
+    width: 100%;
+    display: block;
+    height: auto;
+    background-color: #f9f9f9;
+    margin: 5rem auto;
+    align-items: center;
+}
+
+.servicesList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 1em;
+}
+
+.servicesPart {
+    width: 70%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.servicesPart img {
+    width: auto;
+    display: block;
+    padding: 1rem;
 
 }
 
+.servicesPart h3 {
+    display: block;
+    padding: 1rem;
+}
+
+.servicesPart p {
+    display: block;
+    padding: 1rem;
+}
 
 
 
