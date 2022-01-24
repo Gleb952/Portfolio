@@ -351,26 +351,6 @@ html {
     justify-items: center;
 }
 
-@media screen and (max-width: 600px) {
-    .servicesList {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-row-gap: 1em;
-        margin: 2rem auto;
-        justify-items: center;
-    }
-
-    .servicesPart {
-        width: 90%;
-    }
-
-    .servicesPart h3 .servicesPart p {
-        padding: 0;
-    }
-
-}
-
 .servicesPart {
     width: 70%;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
@@ -381,7 +361,6 @@ html {
     width: auto;
     display: block;
     padding: 1rem;
-
 }
 
 .servicesPart h3 {
@@ -394,7 +373,36 @@ html {
     padding: 1rem;
 }
 
+@media screen and (max-width: 600px) {
+    .servicesList {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 1em;
+        margin: 1rem auto;
+        justify-items: center;
+    }
 
+    .servicesPart {
+        width: 90%;
+    }
+
+    .servicesPart h3 {
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .servicesPart p {
+        padding: 0;
+        font-size: 12px;
+    }
+
+    .servicesPart img {
+        width: 40%;
+        display: block;
+        padding: 10px;
+    }
+}
 
 
 /*---------------------------------------------------*/
@@ -406,6 +414,7 @@ html {
     text-align: center;
     padding: 5rem 0;
     background-image: url(../img/back.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -431,7 +440,14 @@ html {
 
 @media screen and (max-width: 600px) {
     .section {
-        padding: 1rem 0;
+        padding: 4rem 0;
+    }
+    .sectionPart div {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .sectionPart span {
+        font-size: 16px;
     }
 }
 
