@@ -72,8 +72,7 @@ html {
 .topnav {
     width: 100%;
     height: auto;
-    /* position: fixed; */
-    padding-bottom: auto;
+   /*  position: fixed; */
     top: 0px;
     left: 0px;
     z-index: 10;
@@ -90,8 +89,10 @@ html {
     padding: 24px 16px;
     margin-right: 1rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 21px;
     opacity: 1;
+    font-family: "Poppins";
+    font-weight: 500;
 }
 
 .active {
@@ -100,10 +101,11 @@ html {
 
 .topnav a:hover {
     color: #0f7dff;
+
 }
 
 .logo {
-    width: 50px;
+    width: 40px;
     height: auto;
 }
 
