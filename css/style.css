@@ -72,7 +72,7 @@ html {
 .topnav {
     width: 100%;
     height: auto;
-   /*  position: fixed; */
+    /*  position: fixed; */
     top: 0px;
     left: 0px;
     z-index: 10;
@@ -350,6 +350,7 @@ html {
     margin: 2rem auto;
     justify-items: center;
 }
+
 @media screen and (max-width: 600px) {
     .servicesList {
         display: grid;
@@ -359,14 +360,17 @@ html {
         margin: 2rem auto;
         justify-items: center;
     }
+
     .servicesPart {
         width: 90%;
     }
-    .servicesPart h3 .servicesPart p{
+
+    .servicesPart h3 .servicesPart p {
         padding: 0;
     }
 
 }
+
 .servicesPart {
     width: 70%;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
