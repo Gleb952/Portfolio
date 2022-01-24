@@ -201,13 +201,19 @@ html {
     animation-iteration-count: infinite;
     animation-name: bounce;
     animation-timing-function: ease;
-    margin-top: 1rem;
+    margin-top: 15rem;
     bottom: 0;
 
 }
 
 @media screen and (max-width: 600px) {
-    .doubleDown img {
+    .doubleDown a img {
+        margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .doubleDown a img {
+        margin-top: 10rem;
     }
 }
 
@@ -369,6 +375,7 @@ html {
     .services {
         padding: 1rem 0;
     }
+
     .servicesList {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -437,10 +444,12 @@ html {
     .section {
         padding: 4rem 0;
     }
+
     .sectionPart div {
         font-size: 40px;
         font-weight: 600;
     }
+
     .sectionPart span {
         font-size: 16px;
     }
@@ -477,6 +486,7 @@ html {
     .portfolio {
         padding: 2rem 0;
     }
+
     .portfolioList {
         display: grid;
         grid-template-columns: 1fr;
