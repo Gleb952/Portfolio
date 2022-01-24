@@ -73,8 +73,6 @@ html {
     width: 100%;
     height: auto;
     /*  position: fixed; */
-    top: 0px;
-    left: 0px;
     z-index: 10;
     overflow: hidden;
     background-color: #222222;
@@ -151,10 +149,6 @@ html {
     text-align: center;
     align-items: center;
     height: 100vh;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
     font-size: 19px;
     font-weight: 500;
     background-color: #333232;
@@ -163,12 +157,11 @@ html {
 }
 
 .contentHERO {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: block;
+    margin: 0 auto;
     text-align: center;
     z-index: 2;
+    padding-top: 20vh;
 }
 
 .contentHERO img {
@@ -201,21 +194,20 @@ html {
     position: relative;
 }
 
-.doubleDown img {
-    position: absolute;
-    top: 90vh;
-    left: -1vw;
+.doubleDown a img {
     width: 40px;
     height: 40px;
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-name: bounce;
     animation-timing-function: ease;
+    margin-top: 1rem;
+    bottom: 0;
+
 }
 
 @media screen and (max-width: 600px) {
     .doubleDown img {
-        margin: 100% 1%;
     }
 }
 
@@ -374,6 +366,9 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+    .services {
+        padding: 1rem 0;
+    }
     .servicesList {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -479,6 +474,9 @@ html {
 }
 
 @media screen and (max-width: 600px) {
+    .portfolio {
+        padding: 2rem 0;
+    }
     .portfolioList {
         display: grid;
         grid-template-columns: 1fr;
