@@ -334,7 +334,7 @@ html {
 /*---------------------------------------------------*/
 .services {
     width: 100%;
-    display: flex;
+    display: block;
     height: auto;
     background-color: #f9f9f9;
     margin: 0 auto;
