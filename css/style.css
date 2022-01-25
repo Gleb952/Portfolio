@@ -8,7 +8,7 @@
 05) SERVICES
 06) SECTION
 07) PORTFOLIO
-08) 
+08) CONTACT
 09) SOCIAL
 @MEDIA AFTER 
 */
@@ -90,6 +90,7 @@ html {
     font-family: "Poppins";
     font-weight: 500;
 }
+
 .logo {
     width: 40px;
     height: auto;
@@ -500,11 +501,28 @@ html {
     }
 }
 
+/*---------------------------------------------------*/
+/*	09) CONTACT
+/*---------------------------------------------------*/
+.contacts {
+    align-items: center;
+}
 
+.hr10 {
+    width: 60%;
+    margin: 1rem auto;
 
-
-
-
+}
+.contactsText{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contactsForm{
+    margin: 1rem auto;
+    width: 60%;
+    text-align: center;
+}
 
 
 
