@@ -94,6 +94,7 @@ html {
 .logo {
     width: 40px;
     height: auto;
+    margin-left: 1rem;
 }
 
 .overlay {
