@@ -418,10 +418,12 @@ html {
     justify-content: space-around;
     text-align: center;
     padding: 5rem 0;
-    background-image: url(../img/back.jpg);
+    background-image: url(../img/uk.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sectionPart {
